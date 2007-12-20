@@ -9,6 +9,7 @@ Source0:	http://mmj.dk/biabam/%{name}-%{version}.tar.bz2
 Requires:	sendmail-command
 Requires:	sharutils
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 
 %description
 Biabam Is A Bash Attachment Mailer. In other words, BIABAM is a
