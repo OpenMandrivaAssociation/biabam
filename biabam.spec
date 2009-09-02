@@ -2,7 +2,7 @@ Summary:	Biabam Is A Bash Attachment Mailer
 Name:		biabam
 License:	GPL
 Version:	0.9.7
-Release:	%mkrel 5
+Release:	%mkrel 6
 Group:		Networking/Mail
 URL:		http://mmj.dk/biabam/
 Source0:	http://mmj.dk/biabam/%{name}-%{version}.tar.bz2
