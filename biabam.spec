@@ -1,15 +1,14 @@
-Summary:	Is A Bash Attachment Mailer
+Summary:	Bash Attachment Mailer
 Name:		biabam
 License:	GPL
 Version:	0.9.7
-Release:	%mkrel 7
+Release:	8
 Group:		Networking/Mail
 URL:		http://mmj.dk/biabam/
 Source0:	http://mmj.dk/biabam/%{name}-%{version}.tar.bz2
 Requires:	sendmail-command
 Requires:	sharutils
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 
 %description
 Biabam Is A Bash Attachment Mailer. In other words, BIABAM is a
@@ -33,7 +32,6 @@ install -m0755 biabam %{buildroot}%{_bindir}/biabam
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %doc COPYING README
 %attr(0755,root,root) %{_bindir}/biabam
 
