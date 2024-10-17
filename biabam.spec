@@ -4,7 +4,7 @@ License:	GPL
 Version:	0.9.7
 Release:	9
 Group:		Networking/Mail
-URL:		http://mmj.dk/biabam/
+URL:		https://mmj.dk/biabam/
 Source0:	http://mmj.dk/biabam/%{name}-%{version}.tar.bz2
 Requires:	sendmail-command
 Requires:	sharutils
